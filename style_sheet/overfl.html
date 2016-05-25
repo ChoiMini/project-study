@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>overflow</title>
+    <style>
+    .box{overflow: visible;
+width: 200px; height: 200px; border: 1px #F00 solid;
+
+    }
+.box image{width: 100%;}
+.visible ul{border: 1px #F00 solid;
+margin: 0; padding: 0;}
+.visible li{border: 1px #F00 solid;}
+.visible li first {width: 300px; height: 300px; overflow: hidden; float: left;}
+    </style>
+</head>
+<body>
+
+overflow: hidden, visible
+
+<div class="box">
+<img src="../images/egg.jpg" alt="달걀" />
+</div>
+
+<div class="visible">
+
+    <ul>
+        <li><img src="../images/egg.jpg" alt="달걀" /></li>
+        <li>달걀깨트리기</li>
+        <li>달걀깨트리기</li>
+    </ul>
+
+</div>
+</body>
+</html>
