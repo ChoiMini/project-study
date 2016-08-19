@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>반응형</title>
+    <style type="text/css">
+    .dismenu{border:1px #F00 solid; width:250px; }
+    .dismenu div{height:0; overflow:auto; transition:1s cubic-bezier(0.75, -0.32, 0.82, 0.84);}
+    .dismenu div:target{height:150px;}
+
+    </style>
+</head>
+<body>
+<div class="dismenu">
+    <ul>
+    <li><a href="#menu1">초콜릿</a>
+        <div id="menu1">
+            [명사] 카카오나무 열매의 씨를 볶아 만든 가루에 우유, 설탕, 향료 따위를 섞어 만든 것.
+        </div></li>
+    <li><a href="#menu2">다크 초콜릿</a>
+        <div id="menu2">
+            [명사] 보통 초콜릿보다 코코아 함량이 더 많은 초콜릿. 보통 초콜릿보다 더 검은 색깔을 띤다.
+        </div></li>
+    <li><a href="#menu3">화이트 초콜릿</a>
+        <div id="menu3">
+            [명사] 카카오가 들어 있지 않는, 초콜릿 맛 나는 백색 과자.
+        </div>
+    </li>
+    </ul>
+</div>
+</body>
+</html>
